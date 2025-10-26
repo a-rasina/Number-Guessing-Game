@@ -1,6 +1,7 @@
 # Number Guessing Game 
 
 A fun and interactive command-line number guessing game where players try to guess a random number between 1 and 100. Features multiple difficulty levels, progressive hints, performance tracking, and high score management.
+Project URL: https://roadmap.sh/projects/number-guessing-game
 
 ## Table of Contents
 
