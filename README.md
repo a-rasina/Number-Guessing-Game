@@ -35,7 +35,7 @@ A fun and interactive command-line number guessing game where players try to gue
 5. Win by guessing correctly or lose by running out of attempts
 6. Play multiple rounds and try to beat your high score!
 
-## 💻 Installation
+## Installation
 
 **Requirements:**
 - Python 3.x
@@ -75,7 +75,7 @@ No additional packages are required - only Python's built-in modules (`random` a
 
 ## Hints System
 
-The game provides progressive hints to help you narrow down the possibilities:
+The game provides progressive hints to help you narrow down the possibilities. Hints are clearly formatted and separated from the main feedback for easy reading.
 
 - **Hint 1** (Always): Tells you if the number is even or odd
 - **Hint 2** (After 2 attempts): Divisibility clues (divisible by 5 or 10)
@@ -83,9 +83,13 @@ The game provides progressive hints to help you narrow down the possibilities:
 
 Example hints:
 ```
-Hint for you: The number is even
-Hint for you: The number is divisible by 5
-Hint for you: The number is in the second quarter (26-50)
+❌ Incorrect! The number is greater than 50
+
+💡 Hints:
+   • The number is odd
+   • The number is divisible by 5
+   • The number is in the second quarter (26-50)
+
 ```
 
 ## High Score Tracking
@@ -145,9 +149,10 @@ Great! You have selected the Medium difficulty level.
 Let's start the game!
 
 Enter your guess: 50
-Incorrect! The number is less than 50
+❌ Incorrect! The number is less than 50
 
-Hint for you: The number is odd
+💡 Hints:
+   • The number is odd
 
 Enter your guess: 25
 Congratulations! You guessed the correct number in 2 attempts and it took you 5.43 seconds!
